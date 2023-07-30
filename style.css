@@ -1,4 +1,30 @@
-#para1 {
-    text-align: center;
-    color: red;
-  }
+#titulo{
+  font-family: "Sofia", sans-serif;
+  font-size: 46px;
+  text-align: center;
+}
+
+#texto{
+  font-family: Merriweather, serif;
+  font-size: 22px;  
+}
+
+#imagem_redonda {
+  height: 400px;
+  height: 400px;
+  border-radius: 50%;
+ 
+}
+
+body {
+  margin: 70px;
+}
+
+#centralizar{
+  text-align: center;
+}
+
+#imagem{
+  height: 600px;
+  height: 600px;
+}
