@@ -6,11 +6,13 @@
   font-family: 'Poppins', sans-serif;
   font-size: 46px;
   text-align: center;
+  color: #fff;
 }
 
-#texto{
+.texto{
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;  
+  font-size: 18px;
+  color: #fff;
 }
 
 #imagem_redonda {
@@ -52,6 +54,12 @@ body {
   text-decoration: none;
 }
 
+body{
+  background-image: url(img/telaFundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 
 .circle-icons {
