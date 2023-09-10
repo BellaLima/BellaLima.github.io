@@ -2,11 +2,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-#titulo{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Code+Pro&display=swap');
+
+.titulo{
   font-family: 'Poppins', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 46px;
   text-align: center;
+  color: #c791eb;
+}
+
+.imagem_esquerda{
+  text-align: left;
+}
+
+.texto_direita{
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
   color: #fff;
+}
+
+.bloco {
+  display: flex;
 }
 
 .texto{
@@ -23,8 +41,10 @@
 }
 
 body {
-  margin: 70px;
-  background-color: black;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 10px;
+  background-color: rgb(30, 26, 46);
 }
 
 #centralizar{
@@ -38,19 +58,21 @@ body {
 
 #menu-h{
   list-style-type: none;
-  padding: 10px;
-  background-color: #5479f3;
+  padding: 8px;
+  background-color: #8e49fd;
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  margin: 0;
 }
 
 #menu-h li{
   display: inline-block;
+  margin: 0;
 }
 
 #menu-h li a{
   color: #fff;
-  padding: 20px;
+  padding: 30px;
   display: inline;
   text-decoration: none;
 }
@@ -64,13 +86,13 @@ body {
   text-decoration: none;
   margin: 10px; /* espaçamento entre eles */
   border-radius: 50%;  
-  background: rgb(81, 168, 250); /* cor do fundo */
+  background: rgb(126, 81, 250); /* cor do fundo */
   color: #fff; /*cor do icone */
 }
 
 
 .circle-icons:hover {
-    background: #86f7e4; /*  cor de fundo com mouse encima */
-    color: #4b4848;  /* cor do icone com mouse encima */
+    background: #c516fa; /*  cor de fundo com mouse encima */
+    color: #000000;  /* cor do icone com mouse encima */
     opacity: 0.7;
 }
