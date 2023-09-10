@@ -16,12 +16,24 @@
   text-align: left;
 }
 
+.imagem_direita{
+  text-align: right;
+}
+
 .texto_direita{
   text-align: right;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   color: #fff;
 }
+
+.texto_esquerda{
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
 
 .bloco {
   display: flex;
@@ -63,6 +75,7 @@ body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   margin: 0;
+  position: 0;
 }
 
 #menu-h li{
@@ -75,6 +88,11 @@ body {
   padding: 30px;
   display: inline;
   text-decoration: none;
+}
+
+.links{
+  text-decoration: none;
+  color: #d3b7ff;
 }
 
 
